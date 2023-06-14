@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(185, 210, 232);
+    font-family:Verdana, Geneva;
+    font-size: small;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+li{
+    width: 50px;
+    display: inline;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:8px;
+    padding-bottom:8px;
+    text-align: left;
+}
+nav{
+   justify-content: space-between;
+    padding: 0px;
+    text-align:center;
+    position:sticky;
+    top: 0;
+    width: 100%;
+    right: 0;
+    outline-style: solid;
+    color: black;
+    margin-bottom: 0%;
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    color: rgb(240, 25, 25);
+    text-decoration: none;
+    width: 35px;
+    text-align: left;
+}
+nav.bintang{
+    display: flex;
+    text-align: block;
+   
+}
+ul{
+    list-style: none;
+  display: flexs;
+}
+._star{
+    width: 16px;
+    margin-right: 8px;
+}
+
+.container{
+    max-width:840px;
+    margin:auto;
+}
+.img{
+    text-align: center;
+}
+.fotoku img{
+    margin-top: 30px;
+    height: 559px;
+   
+    
+}
+div#about{
+    text-align:justify;
+    position:absolute;
+    width: 400px;
+    height: 100px;
+    left: 800px;
+    right: 600px;
+    top: 75px;
+    color: #000000;
+
+    
+
+}
+div#banner{
+    text-align: center;
+    width: 400px;
+    display: flex;
+    left: 800px;
+    position: center;
+}
+div#project{
+    text-align: justify;
+    width: 400px;
+    display: flex;
+  justify-content: center;
+  column-gap: 50px;
+    
+    
+}
+
+
+div#service{
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+    
+}
+
+div#contact{
+    text-align: center;
+    width: 800px;
+}
+.h3{
+    text-align: center;
+}
+
+.sosial-icons{
+    justify-content: center;
+  column-gap: 100px;
+    display: flex;
+
+}
+footer{
+    top: 70px;
+    text-align: center;
+    outline-style: solid;
+    color: black;
+    margin-bottom: 0%;
+   
+}
